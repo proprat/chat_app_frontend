@@ -44,6 +44,7 @@ const Login = () => {
     const config = {
       withCredentials: true,
       headers: {
+        "access-control-allow-origin" : "*",
         "Content-Type": "application/json",
       },
     };
@@ -86,8 +87,9 @@ const Login = () => {
     const config = {
       withCredentials: true,
       headers: {
+        "access-control-allow-origin" : "*",
         'Content-Type': 'text/plain',
-      },
+      },  
     };
 
     try {
